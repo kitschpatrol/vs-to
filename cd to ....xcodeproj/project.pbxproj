@@ -31,6 +31,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		334FE4601FD64095000CE4BC /* cdto.icns in Resources */ = {isa = PBXBuildFile; fileRef = 334FE45F1FD64095000CE4BC /* cdto.icns */; };
 		69449AD20B8909A500A19631 /* CD2PluginProtocolV1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 69449AD10B8909A400A19631 /* CD2PluginProtocolV1.h */; };
 		6947E8C713DA6362008C982D /* lion.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6947E8C613DA6362008C982D /* lion.icns */; };
 		6963D7FD1835ED290039592E /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 6963D7FC1835ED290039592E /* LICENSE.md */; };
@@ -201,6 +202,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* cd to ..._Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cd to ..._Prefix.pch"; sourceTree = "<group>"; };
+		334FE45F1FD64095000CE4BC /* cdto.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cdto.icns; sourceTree = "<group>"; };
 		69449A9C0B89080600A19631 /* terminal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = terminal.xcodeproj; path = plugins/terminal/terminal.xcodeproj; sourceTree = "<group>"; };
 		69449AD10B8909A400A19631 /* CD2PluginProtocolV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CD2PluginProtocolV1.h; path = plugins/CD2PluginProtocolV1.h; sourceTree = "<group>"; };
 		69449C090B892D0B00A19631 /* X11_xterm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = X11_xterm.xcodeproj; path = plugins/X11_xterm/X11_xterm.xcodeproj; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 			isa = PBXGroup;
 			children = (
 				6963D7FC1835ED290039592E /* LICENSE.md */,
+				334FE45F1FD64095000CE4BC /* cdto.icns */,
 				6947E8C613DA6362008C982D /* lion.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -446,6 +449,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				69C8AA71106E8F5800C4DE0D /* Finder.app in Resources */,
 				6947E8C713DA6362008C982D /* lion.icns in Resources */,
+				334FE4601FD64095000CE4BC /* cdto.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
