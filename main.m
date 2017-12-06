@@ -49,17 +49,16 @@ NSString* getPathToFrontFinderWindow(){
 
 int main(int argc, char *argv[])
 {
-	id pool = [[NSAutoreleasePool alloc] init];
-	
-	NSString* path;
-	@try{
-		path = getPathToFrontFinderWindow();
-	}@catch(id ex){
-		path =[@"~/Desktop" stringByExpandingTildeInPath];
-	}
-	
-    [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Terminal"];
-	[pool release];
+    @autoreleasepool{
+        NSString* path;
+        @try{
+            path = getPathToFrontFinderWindow();
+        }@catch(id ex){
+            path =[@"~/Desktop" stringByExpandingTildeInPath];
+        }
+        
+        [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Terminal"];
+    }
     return 0;
 }
 
