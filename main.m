@@ -7,7 +7,6 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "CD2PluginProtocolV1.h"
 #import "Finder.h"
 
 NSString* getPathToFrontFinderWindow(){
@@ -46,26 +45,7 @@ NSString* getPathToFrontFinderWindow(){
 	return path;
 }
 
-NSArray* loadPlugins(){
-    NSString* pluginPath = [[NSBundle mainBundle] builtInPlugInsPath];
-	NSArray* bundlePaths = [NSArray array];
-	if (pluginPath != nil) {
-		bundlePaths =[NSBundle pathsForResourcesOfType:@"bundle"
-											inDirectory:pluginPath];
-	}
-	NSMutableArray* pluginObjectArrays = [NSMutableArray array];
-	NSEnumerator *enumerator = [bundlePaths objectEnumerator];
-	NSString* path;
-	while ((path = (NSString*)[enumerator nextObject])) {
-		NSBundle* bundle =[NSBundle bundleWithPath:path];
-		Class pClass =[bundle principalClass];
-		if([pClass conformsToProtocol:@protocol(CD2PluginProtocolV1)] &&  [pClass isKindOfClass:[NSObject class]]){
-			[pluginObjectArrays addObject:[[[pClass alloc]init]autorelease]];		
-		}
-	}
 
-	return pluginObjectArrays;
-}
 
 int main(int argc, char *argv[])
 {
@@ -78,14 +58,7 @@ int main(int argc, char *argv[])
 		path =[@"~/Desktop" stringByExpandingTildeInPath];
 	}
 	
-	NSArray* plugins =loadPlugins();
-	
-	NSEnumerator *enumerator = [plugins objectEnumerator];
-	id <CD2PluginProtocolV1> plugin;
-	while ((plugin = (id <CD2PluginProtocolV1>)[enumerator nextObject])) {
-		[plugin openTermWindowForPath:path];
-	}
-	
+    [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Terminal"];
 	[pool release];
     return 0;
 }
