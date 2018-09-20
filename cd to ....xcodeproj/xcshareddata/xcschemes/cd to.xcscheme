@@ -10,7 +10,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "open ${BUILT_PRODUCTS_DIR}&#10;cp -Rf ${BUILT_PRODUCTS_DIR}/cd\ to.app ~/Applications/">
+               scriptText = "open ${BUILT_PRODUCTS_DIR}&#10;">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
