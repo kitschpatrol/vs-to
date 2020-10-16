@@ -65,9 +65,13 @@
 }
 
 - (NSImage *)toolbarItemImage {
-    NSImage* image=[NSImage imageNamed:@"foo"];
-    image.template=YES;
-    return image;
+    if(@available(macOS 11,*)){
+        return [NSImage imageWithSystemSymbolName:@"chevron.forward.2" accessibilityDescription:@"open terminal on this folder"];
+    }else{
+        NSImage* image=[NSImage imageNamed:@"foo"];
+        image.template=YES;
+        return image;
+    }
 }
 
 - (NSMenu *)menuForMenuKind:(FIMenuKind)whichMenu {
