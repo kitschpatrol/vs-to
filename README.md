@@ -1,5 +1,15 @@
 ## vs to...
 
+Modified version of my fork of `cd to` finder toolbar shortcut app to open vscode in March 2023.
+
+Does not have a dependency on the `code` vscode CLI helper application.
+
+Based slightly on https://github.com/Sh7ne/Mac-OpenInVSCode
+
+---
+
+## original readme...
+
 <img src="https://raw.github.com/jbtule/cdto/master/graphics/lion.png" height="128px" width="128px" />
 
 Finder Toolbar app to open the current directory in the Terminal (or iTerm, X11)
