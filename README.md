@@ -1,8 +1,10 @@
 ## vs to...
 
-Modified version of my fork of `cd to` finder toolbar shortcut app to open vscode in March 2023.
+Command-drag the icon to the Finder toolbar.
 
-Does not have a dependency on the `code` vscode CLI helper application.
+Modified from my fork of `cd to` in in March 2023 to open selected files or folders from the Finder in Visual Studio Code.
+
+Depends on the `code` Visual Studio Code CLI helper application being installed at `/usr/local/bin/code`.
 
 Based slightly on https://github.com/Sh7ne/Mac-OpenInVSCode
 
