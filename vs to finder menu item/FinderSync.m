@@ -1,6 +1,6 @@
 //
 //  FinderSync.m
-//  cd to finder menu item
+//  vs to finder menu item
 //
 //  Created by Yuji on 2018/09/20.
 //
@@ -57,11 +57,11 @@
 #pragma mark - Menu and toolbar item support
 
 - (NSString *)toolbarItemName {
-    return @"cd to this folder";
+    return @"vs to this folder";
 }
 
 - (NSString *)toolbarItemToolTip {
-    return @"cd to this folder";
+    return @"vs to this folder";
 }
 
 - (NSImage *)toolbarItemImage {
@@ -76,7 +76,7 @@
 
 - (NSMenu *)menuForMenuKind:(FIMenuKind)whichMenu {
     // Produce a menu for the extension.
-    [[NSWorkspace sharedWorkspace] openFile:@"" withApplication:@"cd to"];
+    [[NSWorkspace sharedWorkspace] openFile:@"" withApplication:@"vs to"];
 
     return nil;
 }

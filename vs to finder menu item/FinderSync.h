@@ -1,6 +1,6 @@
 //
 //  FinderSync.h
-//  cd to finder menu item
+//  vs to finder menu item
 //
 //  Created by Yuji on 2018/09/20.
 //

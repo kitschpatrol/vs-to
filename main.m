@@ -1,6 +1,6 @@
 //
 //  main.m
-//  cd to ...
+//  vs to ...
 //
 //  Created by James Tuley on 2/16/07.
 //  Copyright Jay Tuley 2007. All rights reserved.
@@ -57,7 +57,10 @@ int main(int argc, char *argv[])
             path =[@"~/Desktop" stringByExpandingTildeInPath];
         }
         
-        [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Terminal"];
+        [[NSTask launchedTaskWithLaunchPath:@"/usr/bin/open" arguments:@[@"-n", @"-b" ,@"com.microsoft.VSCode", @"--args", path]] waitUntilExit];
+          
+        
+//        [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Terminal"];
     }
     return 0;
 }

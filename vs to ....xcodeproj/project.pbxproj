@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3340E204215351E10041930D /* cd to finder menu item.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3363C09521534DA000347CA5 /* cd to finder menu item.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		334FE4601FD64095000CE4BC /* cdto.icns in Resources */ = {isa = PBXBuildFile; fileRef = 334FE45F1FD64095000CE4BC /* cdto.icns */; };
+		3340E204215351E10041930D /* vs to finder menu item.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3363C09521534DA000347CA5 /* vs to finder menu item.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		334FE4601FD64095000CE4BC /* vsto.icns in Resources */ = {isa = PBXBuildFile; fileRef = 334FE45F1FD64095000CE4BC /* vsto.icns */; };
 		3363C09921534DA000347CA5 /* FinderSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 3363C09821534DA000347CA5 /* FinderSync.m */; };
 		3363C0A621534E4600347CA5 /* foo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3363C0A521534E4600347CA5 /* foo.pdf */; };
 		6963D7FD1835ED290039592E /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 6963D7FC1835ED290039592E /* LICENSE.md */; };
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3340E204215351E10041930D /* cd to finder menu item.appex in Embed App Extensions */,
+				3340E204215351E10041930D /* vs to finder menu item.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,18 +66,18 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		334FE45F1FD64095000CE4BC /* cdto.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cdto.icns; sourceTree = "<group>"; };
-		3363C09521534DA000347CA5 /* cd to finder menu item.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "cd to finder menu item.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		334FE45F1FD64095000CE4BC /* vsto.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = vsto.icns; sourceTree = "<group>"; };
+		3363C09521534DA000347CA5 /* vs to finder menu item.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "vs to finder menu item.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3363C09721534DA000347CA5 /* FinderSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinderSync.h; sourceTree = "<group>"; };
 		3363C09821534DA000347CA5 /* FinderSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderSync.m; sourceTree = "<group>"; };
 		3363C09A21534DA000347CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3363C09B21534DA000347CA5 /* cd_to_finder_menu_item.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cd_to_finder_menu_item.entitlements; sourceTree = "<group>"; };
+		3363C09B21534DA000347CA5 /* vs_to_finder_menu_item.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vs_to_finder_menu_item.entitlements; sourceTree = "<group>"; };
 		3363C0A521534E4600347CA5 /* foo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = foo.pdf; sourceTree = "<group>"; };
 		6963D7FC1835ED290039592E /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 		69C8A98D106E818900C4DE0D /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
 		69C8AA70106E8F5800C4DE0D /* Finder.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = Finder.app; path = /System/Library/CoreServices/Finder.app; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* cd to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cd to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* vs to.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vs to.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,23 +122,23 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* cd to.app */,
-				3363C09521534DA000347CA5 /* cd to finder menu item.appex */,
+				8D1107320486CEB800E47090 /* vs to.app */,
+				3363C09521534DA000347CA5 /* vs to finder menu item.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* cd to ... */ = {
+		29B97314FDCFA39411CA2CEA /* vs to ... */ = {
 			isa = PBXGroup;
 			children = (
 				69C8AA70106E8F5800C4DE0D /* Finder.app */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
-				3363C09621534DA000347CA5 /* cd to finder menu item */,
+				3363C09621534DA000347CA5 /* vs to finder menu item */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
-			name = "cd to ...";
+			name = "vs to ...";
 			sourceTree = "<group>";
 		};
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
@@ -153,7 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				6963D7FC1835ED290039592E /* LICENSE.md */,
-				334FE45F1FD64095000CE4BC /* cdto.icns */,
+				334FE45F1FD64095000CE4BC /* vsto.icns */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
@@ -169,24 +169,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3363C09621534DA000347CA5 /* cd to finder menu item */ = {
+		3363C09621534DA000347CA5 /* vs to finder menu item */ = {
 			isa = PBXGroup;
 			children = (
 				3363C0A521534E4600347CA5 /* foo.pdf */,
 				3363C09721534DA000347CA5 /* FinderSync.h */,
 				3363C09821534DA000347CA5 /* FinderSync.m */,
 				3363C09A21534DA000347CA5 /* Info.plist */,
-				3363C09B21534DA000347CA5 /* cd_to_finder_menu_item.entitlements */,
+				3363C09B21534DA000347CA5 /* vs_to_finder_menu_item.entitlements */,
 			);
-			path = "cd to finder menu item";
+			path = "vs to finder menu item";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3363C09421534DA000347CA5 /* cd to finder menu item */ = {
+		3363C09421534DA000347CA5 /* vs to finder menu item */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3363C0A121534DA000347CA5 /* Build configuration list for PBXNativeTarget "cd to finder menu item" */;
+			buildConfigurationList = 3363C0A121534DA000347CA5 /* Build configuration list for PBXNativeTarget "vs to finder menu item" */;
 			buildPhases = (
 				3363C09121534DA000347CA5 /* Sources */,
 				3363C09221534DA000347CA5 /* Frameworks */,
@@ -196,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = "cd to finder menu item";
-			productName = "cd to finder menu item";
-			productReference = 3363C09521534DA000347CA5 /* cd to finder menu item.appex */;
+			name = "vs to finder menu item";
+			productName = "vs to finder menu item";
+			productReference = 3363C09521534DA000347CA5 /* vs to finder menu item.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		8D1107260486CEB800E47090 /* cd to */ = {
+		8D1107260486CEB800E47090 /* vs to */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "cd to" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "vs to" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -216,10 +216,10 @@
 			);
 			dependencies = (
 			);
-			name = "cd to";
+			name = "vs to";
 			productInstallPath = "$(HOME)/Applications";
-			productName = "cd to ...";
-			productReference = 8D1107320486CEB800E47090 /* cd to.app */;
+			productName = "vs to ...";
+			productReference = 8D1107320486CEB800E47090 /* vs to.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -242,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cd to ..." */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "vs to ..." */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -250,12 +250,12 @@
 				English,
 				en,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* cd to ... */;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* vs to ... */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* cd to */,
-				3363C09421534DA000347CA5 /* cd to finder menu item */,
+				8D1107260486CEB800E47090 /* vs to */,
+				3363C09421534DA000347CA5 /* vs to finder menu item */,
 			);
 		};
 /* End PBXProject section */
@@ -275,7 +275,7 @@
 			files = (
 				6963D7FD1835ED290039592E /* LICENSE.md in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				334FE4601FD64095000CE4BC /* cdto.icns in Resources */,
+				334FE4601FD64095000CE4BC /* vsto.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +330,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "cd to finder menu item/cd_to_finder_menu_item.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "vs to finder menu item/vs_to_finder_menu_item.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -346,7 +346,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "cd to finder menu item/Info.plist";
+				INFOPLIST_FILE = "vs to finder menu item/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -355,7 +355,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmika.cdto.cd-to-finder-menu-item";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmika.vsto.vs-to-finder-menu-item";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -379,7 +379,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "cd to finder menu item/cd_to_finder_menu_item.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "vs to finder menu item/vs_to_finder_menu_item.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -390,7 +390,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "cd to finder menu item/Info.plist";
+				INFOPLIST_FILE = "vs to finder menu item/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -399,7 +399,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmika.cdto.cd-to-finder-menu-item";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmika.vsto.vs-to-finder-menu-item";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -411,6 +411,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -425,8 +426,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0;
 				OTHER_CODE_SIGN_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericmika.cdto;
-				PRODUCT_NAME = "cd to";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmika.vsto;
+				PRODUCT_NAME = "vs to";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -438,6 +439,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -449,8 +451,8 @@
 				INSTALL_PATH = /unsigned;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ericmika.cdto;
-				PRODUCT_NAME = "cd to";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmika.vsto;
+				PRODUCT_NAME = "vs to";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
@@ -485,7 +487,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -518,7 +520,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -526,7 +528,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3363C0A121534DA000347CA5 /* Build configuration list for PBXNativeTarget "cd to finder menu item" */ = {
+		3363C0A121534DA000347CA5 /* Build configuration list for PBXNativeTarget "vs to finder menu item" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3363C09F21534DA000347CA5 /* Debug */,
@@ -535,7 +537,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "cd to" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "vs to" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
@@ -544,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "cd to ..." */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "vs to ..." */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

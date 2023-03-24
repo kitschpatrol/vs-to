@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1000"
-   wasCreatedForAppExtension = "YES"
-   version = "2.0">
+   LastUpgradeVersion = "0920"
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "open ${BUILT_PRODUCTS_DIR}&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "8D1107260486CEB800E47090"
+                     BuildableName = "vs to.app"
+                     BlueprintName = "vs to"
+                     ReferencedContainer = "container:vs to ....xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -15,24 +32,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3363C09421534DA000347CA5"
-               BuildableName = "cd to finder menu item.appex"
-               BlueprintName = "cd to finder menu item"
-               ReferencedContainer = "container:cd to ....xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "8D1107260486CEB800E47090"
-               BuildableName = "cd to.app"
-               BlueprintName = "cd to"
-               ReferencedContainer = "container:cd to ....xcodeproj">
+               BuildableName = "vs to.app"
+               BlueprintName = "vs to"
+               ReferencedContainer = "container:vs to ....xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3363C09421534DA000347CA5"
-            BuildableName = "cd to finder menu item.appex"
-            BlueprintName = "cd to finder menu item"
-            ReferencedContainer = "container:cd to ....xcodeproj">
+            BlueprintIdentifier = "8D1107260486CEB800E47090"
+            BuildableName = "vs to.app"
+            BlueprintName = "vs to"
+            ReferencedContainer = "container:vs to ....xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,23 +61,22 @@
    </TestAction>
    <LaunchAction
       buildConfiguration = "Release"
-      selectedDebuggerIdentifier = ""
-      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES"
-      launchAutomaticallySubstyle = "2">
+      allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D1107260486CEB800E47090"
-            BuildableName = "cd to.app"
-            BlueprintName = "cd to"
-            ReferencedContainer = "container:cd to ....xcodeproj">
+            BuildableName = "vs to.app"
+            BlueprintName = "vs to"
+            ReferencedContainer = "container:vs to ....xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,16 +87,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES"
-      launchAutomaticallySubstyle = "2">
+      debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8D1107260486CEB800E47090"
-            BuildableName = "cd to.app"
-            BlueprintName = "cd to"
-            ReferencedContainer = "container:cd to ....xcodeproj">
+            BuildableName = "vs to.app"
+            BlueprintName = "vs to"
+            ReferencedContainer = "container:vs to ....xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
