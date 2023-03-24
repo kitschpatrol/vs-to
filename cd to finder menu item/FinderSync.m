@@ -61,7 +61,7 @@
 }
 
 - (NSString *)toolbarItemToolTip {
-    return @"cd to this folder; just click";
+    return @"cd to this folder";
 }
 
 - (NSImage *)toolbarItemImage {
